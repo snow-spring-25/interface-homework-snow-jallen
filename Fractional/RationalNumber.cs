@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fractional
 {
-    public class RationalNumber
+    public class RationalNumber : IEquatable<RationalNumber>, IComparable<RationalNumber>
     {
         int numerator;
         int denominator;
